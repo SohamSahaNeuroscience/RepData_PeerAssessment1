@@ -20,10 +20,6 @@ data$month <- as.numeric(format(data$date, "%m"))
 noNA <- na.omit(data)
 rownames(noNA) <- 1:nrow(noNA)
 head(noNA)
-```
-
-
-```{r}
 dim(noNA)
 ```
 
